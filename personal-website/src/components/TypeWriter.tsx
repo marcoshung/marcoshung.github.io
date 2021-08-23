@@ -1,6 +1,6 @@
-import Typewriter from 'typewriter-effect/dist/core';
+import Typewriter from 'typewriter-effect';
 
-export const Home = () => {
+export const TypeWriter = () => {
     return(
       <Typewriter
         options={{
