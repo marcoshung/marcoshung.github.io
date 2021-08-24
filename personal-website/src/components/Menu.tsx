@@ -3,7 +3,7 @@ import './Menu.css'
 import { Link } from 'react-router-dom'
 
 export const Menu = () => {
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
     const sideBarStyle = {
         width : open ? '250px' : '50px'
     }
