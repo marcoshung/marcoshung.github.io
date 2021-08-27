@@ -5,7 +5,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
-import { Home }  from './components/pages'
+import { Home, About }  from './components/pages'
 import { TypeWriter } from './components/TypeWriter'
 import { NavBar, Menu } from './components';
 import { motion } from "framer-motion"
@@ -22,7 +22,7 @@ export const App = () => {
           <Home/>
         </Route>
         <Route path = "/about">
-          <p>Home</p>
+          <About/>
         </Route>
       </Switch>
       </header>
