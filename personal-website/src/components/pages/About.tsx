@@ -11,13 +11,15 @@ const welcome_messages = [
 export const About = () => {
     return (
         <>
-        <Typewriter
-            options={{
-            strings: welcome_messages,
-            autoStart: true,
-            loop: true,
-            }}
-        />
+        <div style={{backgroundColor:"black"}}>
+            <Typewriter
+                options={{
+                strings: welcome_messages,
+                autoStart: true,
+                loop: true,
+                }}
+            />
+        </div>
         </>
     )
 }
