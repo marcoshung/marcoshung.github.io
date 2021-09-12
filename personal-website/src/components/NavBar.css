@@ -1,18 +1,20 @@
-.item{
-    display: inline;
-    float:left;
-    border-left: solid 1px #ffffff
-
-}
 .container {
+  position: relative;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border: solid 1px #ffff;
     border-radius: 10px;
+    align-items: center;
   }
-  
+.item{
+    display: inline;
+    float:left;
+    border-left: solid 1px #ffffff;
+    margin:0
+
+  }  
   .item a {
     display: block;
     color: white;
@@ -20,5 +22,6 @@
     padding: 14px 16px;
     text-decoration: none;
     text-transform: uppercase;
+    margin:0
   }
   

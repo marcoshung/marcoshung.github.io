@@ -1,5 +1,6 @@
-import React from 'react'
 import Typewriter from 'typewriter-effect';
+import './About.css'
+
 const message = "\'Hi! My name is Marcos and welcome to my portfolio!\'"
 const welcome_messages = [
     `print(${message})`,

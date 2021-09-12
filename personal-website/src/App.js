@@ -6,17 +6,19 @@ import {
   Switch
 } from 'react-router-dom'
 import { Home, About }  from './components/pages'
-import { TypeWriter } from './components/TypeWriter'
-import { NavBar, Menu } from './components';
+import { Menu } from './components';
 import { motion } from "framer-motion"
 
 export const App = () => {
   return(
     <>
-    <motion.div className="App">
-      <header className="App-header">
-      <Menu></Menu>
+    <div className ="bg-image"></div>
+    <Menu/>
 
+    <motion.div className="App">
+    
+      <header className="App-header">
+      <div className="content">
       <Switch>
         <Route exact path = "/">
           <Home/>
@@ -25,6 +27,7 @@ export const App = () => {
           <About/>
         </Route>
       </Switch>
+      </div>
       </header>
     </motion.div>
     </>

@@ -1,6 +1,7 @@
 /* The sidebar menu */
 .sidebar {
-  height: 100%; /* 100% Full-height */
+  text-align: center;
+  height: 100vh; /* 100% Full-height */
   width: 250px; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
@@ -10,6 +11,7 @@
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  z-index: 5;
 }
 
 /* The sidebar links */
