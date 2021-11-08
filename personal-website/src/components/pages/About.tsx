@@ -1,7 +1,7 @@
 import Typewriter from 'typewriter-effect';
 import './About.css'
-
-const message = "\'Hi! My name is Marcos and welcome to my portfolio!\'"
+import pfp from './pfp.jpg';
+const message = "'Hi! My name is Marcos and welcome to my portfolio!'"
 const welcome_messages = [
     `print(${message})`,
     `echo ${message}`,
@@ -11,16 +11,17 @@ const welcome_messages = [
 
 export const About = () => {
     return (
-        <>
-        <div style={{backgroundColor:"black"}}>
-            <Typewriter
-                options={{
-                strings: welcome_messages,
-                autoStart: true,
-                loop: true,
-                }}
-            />
+        <div className="about_header">
+            <div className="typewriter" style={{backgroundColor:"black", width:"500px"}}>
+                <Typewriter
+                    options={{
+                    strings: welcome_messages,
+                    autoStart: true,
+                    loop: true,
+                    }}
+                />
+            </div>
+            <img className ="pfp" src={pfp}></img>
         </div>
-        </>
     )
-}
+} 

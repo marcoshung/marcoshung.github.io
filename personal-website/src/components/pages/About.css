@@ -1,0 +1,10 @@
+.about_header {
+    flex:50%
+}
+.typewriter{
+    display: flex;
+}
+.pfp {
+    display: flex;
+    width:30%
+}
