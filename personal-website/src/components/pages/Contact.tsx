@@ -2,6 +2,7 @@ import {Message} from "../../twilio"
 import { ChakraProvider, Button } from "@chakra-ui/react"
 import React, { useState } from 'react';
 import './Contact.css'
+import linkedin from '../../images/linkedIn.png';
 export const Contact= ()=> {
     const [phoneMessage, setPhoneMessage] = useState('')
     
@@ -28,6 +29,9 @@ export const Contact= ()=> {
                     Send Message
                     </Button>
             </ChakraProvider>
+            <div className="contact_bar">
+                <a href="https://www.linkedin.com/in/mhung927/"><img className="linkedin" src={linkedin}/> </a>
+            </div>
         </>
     )
 }

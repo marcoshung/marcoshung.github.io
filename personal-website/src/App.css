@@ -28,7 +28,7 @@ body {
   color: #61dafb;
 }
 .bg-image{
-  background-image: url("./sf-background.jpg") ;
+  background-image: url("./images/sf-background.jpg") ;
   background-size:cover;
   min-width: 100%;
   min-height: 100vh;

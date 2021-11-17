@@ -1,6 +1,6 @@
 import Typewriter from 'typewriter-effect';
 import './About.css'
-import pfp from './pfp.jpg';
+import pfp from '../../images/pfp.jpg';
 const message = "'Hi! My name is Marcos and welcome to my portfolio!'"
 const welcome_messages = [
     `print(${message})`,
