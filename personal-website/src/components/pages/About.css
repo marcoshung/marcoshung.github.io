@@ -3,8 +3,12 @@
 }
 .typewriter{
     display: flex;
+    float:right;
+    margin: 8px;
 }
 .pfp {
     display: flex;
-    width:30%
+    width:30%;
+    float:right;
+    margin: 8px;
 }
