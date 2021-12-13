@@ -3,6 +3,7 @@ import './About.css'
 import pfp from '../../images/pfp.jpg';
 import { motion } from 'framer-motion'
 import linkedin from '../../images/linkedIn.png';
+import github from '../../images/github.png';
 
 const message = "\"Hi! My name is Marcos and welcome to my portfolio!\""
 const welcome_messages = [
@@ -39,7 +40,8 @@ export const About = () => {
                 <h3>Expected Graduation : <i>May 2022</i></h3>
             </div>
             <div className="contact_bar">
-                <a href="https://www.linkedin.com/in/mhung927/"><img className="linkedin" src={linkedin}/> </a>
+                <a href="https://www.linkedin.com/in/mhung927/" ><img className="icon" src={linkedin}/> </a>
+                <a href="https://github.com/marcoshung"><img  className="icon" id ={"github"} src={github}/> </a>
             </div>
         </motion.div>
     )
