@@ -3,6 +3,7 @@ import { ChakraProvider, Button } from "@chakra-ui/react"
 import React, { useState } from 'react';
 import './Contact.css'
 import linkedin from '../../images/linkedIn.png';
+import github from '../../images/github.png';
 export const Contact= ()=> {
     const [phoneMessage, setPhoneMessage] = useState('')
     
@@ -30,7 +31,8 @@ export const Contact= ()=> {
                     </Button>
             </ChakraProvider>
             <div className="contact_bar">
-                <a href="https://www.linkedin.com/in/mhung927/"><img className="linkedin" src={linkedin}/> </a>
+                <a href="https://www.linkedin.com/in/mhung927/" className="icon"><img src={linkedin}/> </a>
+                <a href="https://github.com/marcoshung" className="icon"><img id ={"github"} src={github}/> </a>
             </div>
         </>
     )

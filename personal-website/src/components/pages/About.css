@@ -1,5 +1,9 @@
-.about_header {
-    flex:50%
+.intro {
+    display: flex;
+    flex:50%;
+    align-items: center;
+    justify-content: space-between;
+
 }
 .typewriter{
     display: flex;
@@ -11,4 +15,10 @@
     width:30%;
     float:right;
     margin: 8px;
+}
+.basicInfo{
+    line-height: .5;
+}
+.contact_bar{
+    display: flex;
 }
