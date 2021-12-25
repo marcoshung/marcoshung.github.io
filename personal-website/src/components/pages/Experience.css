@@ -1,0 +1,23 @@
+.experience-content{
+    width:1750px;
+}
+.experience-title{
+    display: flex;
+    flex:50%;
+    align-items: center;
+    justify-content: space-between;
+}
+.description{
+    text-align: left;
+    font-size: 28px;
+}
+.logo{
+    max-width: 60%;
+    max-height: 200px;
+}
+#amazon{
+    background-color: white;
+}
+#codeucate{
+    background-color: white;
+}

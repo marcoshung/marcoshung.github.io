@@ -17,10 +17,7 @@ const welcome_messages = [
 
 export const About = () => {
     return (
-        <motion.div className={"about_header"}
-        initial={{scale: 0}}
-        animate={{ scale: 1 }}
-        transition={{ duration: 1 }}>
+        <motion.div className={"about_header"}>
             <div className="intro">
                 <div className="typewriter" style={{backgroundColor:"black", width:"500px"}}>
                     <Typewriter

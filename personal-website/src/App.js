@@ -5,7 +5,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
-import { Home, About, Contact }  from './components/pages'
+import { Home, About, Contact, Experience }  from './components/pages'
 import { Menu } from './components';
 import { motion } from "framer-motion"
 
@@ -19,8 +19,14 @@ export const App = () => {
     
       <header className="App-header">
       <motion.div className="content"
+      
       >
       <Switch>
+        <motion.div
+          initial={{scale: 0}}
+          animate={{ scale: 1 }}
+          transition={{ duration: 1 }}
+        >
         <Route exact path = "/">
           <Home/>
         </Route>
@@ -30,6 +36,10 @@ export const App = () => {
         <Route path = "/contact">
           <Contact/>
         </Route>
+        <Route path = "/work">
+          <Experience/>
+        </Route>
+        </motion.div>
       </Switch>
       </motion.div>
       </header>
