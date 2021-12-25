@@ -1,25 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.8bcd8a48.chunk.css",
-    "main.js": "/static/js/main.08fb9c81.chunk.js",
-    "main.js.map": "/static/js/main.08fb9c81.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ed0d92ec.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ed0d92ec.js.map",
-    "static/js/2.d544d3f0.chunk.js": "/static/js/2.d544d3f0.chunk.js",
-    "static/js/2.d544d3f0.chunk.js.map": "/static/js/2.d544d3f0.chunk.js.map",
-    "static/js/3.620cc192.chunk.js": "/static/js/3.620cc192.chunk.js",
-    "static/js/3.620cc192.chunk.js.map": "/static/js/3.620cc192.chunk.js.map",
+    "main.css": "/static/css/main.7b2fe7c9.chunk.css",
+    "main.js": "/static/js/main.8f833012.chunk.js",
+    "main.js.map": "/static/js/main.8f833012.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ba2a0698.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ba2a0698.js.map",
+    "static/js/2.2614f8e3.chunk.js": "/static/js/2.2614f8e3.chunk.js",
+    "static/js/2.2614f8e3.chunk.js.map": "/static/js/2.2614f8e3.chunk.js.map",
+    "static/js/3.9e2dd076.chunk.js": "/static/js/3.9e2dd076.chunk.js",
+    "static/js/3.9e2dd076.chunk.js.map": "/static/js/3.9e2dd076.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8bcd8a48.chunk.css.map": "/static/css/main.8bcd8a48.chunk.css.map",
-    "static/js/2.d544d3f0.chunk.js.LICENSE.txt": "/static/js/2.d544d3f0.chunk.js.LICENSE.txt",
+    "static/css/main.7b2fe7c9.chunk.css.map": "/static/css/main.7b2fe7c9.chunk.css.map",
+    "static/js/2.2614f8e3.chunk.js.LICENSE.txt": "/static/js/2.2614f8e3.chunk.js.LICENSE.txt",
+    "static/media/alienvault.02ef3d7c.png": "/static/media/alienvault.02ef3d7c.png",
+    "static/media/amazon.50073dba.png": "/static/media/amazon.50073dba.png",
+    "static/media/codeucate.3c5b80bc.png": "/static/media/codeucate.3c5b80bc.png",
+    "static/media/deliverr.dd35b2b3.png": "/static/media/deliverr.dd35b2b3.png",
     "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/nasa.018f5e1c.png": "/static/media/nasa.018f5e1c.png",
     "static/media/pfp.ded8d785.jpg": "/static/media/pfp.ded8d785.jpg",
-    "static/media/App.css": "/static/media/sf-background.681e0fbd.jpg"
+    "static/media/samtrans.6a7d166a.png": "/static/media/samtrans.6a7d166a.png",
+    "static/media/App.css": "/static/media/sf-background.681e0fbd.jpg",
+    "static/media/sjsu.44dd42e0.png": "/static/media/sjsu.44dd42e0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed0d92ec.js",
-    "static/js/2.d544d3f0.chunk.js",
-    "static/css/main.8bcd8a48.chunk.css",
-    "static/js/main.08fb9c81.chunk.js"
+    "static/js/runtime-main.ba2a0698.js",
+    "static/js/2.2614f8e3.chunk.js",
+    "static/css/main.7b2fe7c9.chunk.css",
+    "static/js/main.8f833012.chunk.js"
   ]
 }
