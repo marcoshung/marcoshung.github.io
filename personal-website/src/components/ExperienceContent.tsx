@@ -1,8 +1,9 @@
+import { ReactJSXElement } from '@emotion/react/types/jsx-namespace';
 import './ExperienceContent.css'
 interface ContentProps {
     company:string, 
     time:string, 
-    description:string,
+    description:ReactJSXElement,
     logo:string, 
     setBackground?:boolean
 }
