@@ -12,14 +12,14 @@ export const ExperienceContent = (
 ) => {
     return (
         <>
-        <div className="experience-title">
-            <h5><i>{props.company}</i></h5>
-            <h5><i>{props.time}</i></h5>
-        </div>
-        <img className ="logo" src={props.logo} style={{backgroundColor: props.setBackground? "white" : "none"}}/>
-        <div className="description">
-            {props.description}
-        </div>
+            <div className="experience-title">
+                <b style={{"textAlign":"left"}}><i>{props.company}</i></b>
+                <b style={{"textAlign":"right"}}><i>{props.time}</i></b>
+            </div>
+            <img className ="logo" src={props.logo} style={{backgroundColor: props.setBackground? "white" : "none"}}/>
+            <div className="description">
+                {props.description}
+            </div>
         </>
     );
 };

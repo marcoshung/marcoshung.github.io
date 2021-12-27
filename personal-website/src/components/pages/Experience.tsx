@@ -21,7 +21,12 @@ export const Experience = () => {
                     company="NASA Glenn Research Center"
                     time ="August 2021 - December 2021"
                     logo={nasa}
-                    description ="In Fall 2021 I had the opportunity to intern with NASA as a data science intern on various projects to improve the machine learning pipeline."
+                    description={
+                    `In Fall 2021 I had the opportunity to intern with NASA as a data 
+                    science intern on various projects to improve the machine learning pipeline.
+                    I worked with in the Scientific Computing and Visualization Team as a part of 
+                    the Graphics and Visualization Lab (GVIS). '\n' My intern project was to `
+                }
                 />
                 <ExperienceContent
                     company="Amazon"

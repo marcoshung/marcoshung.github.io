@@ -1,14 +1,21 @@
 .experience-title{
     display: flex;
     flex:50%;
-    align-items: center;
     justify-content: space-between;
+    font-size: large;
+    margin:8px;
 }
 .description{
     text-align: left;
-    font-size: 28px;
+    font-size: medium;
 }
 .logo{
     max-width: 60%;
-    max-height: 200px;
+    max-height: 20%;
+}
+#company{
+    float:left;
+}
+#time{
+    float:right;
 }
