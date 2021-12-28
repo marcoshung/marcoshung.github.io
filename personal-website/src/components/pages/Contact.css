@@ -1,3 +1,6 @@
+.contact{
+    min-width: 70vh;
+}
 .phoneMessage{
     color:black;
     font-size: 16px;
@@ -9,4 +12,27 @@
 }
 #github{
     border-radius: 5px;
+}
+.contact-header{
+    display: flex;
+
+}
+label{
+    font-size: large;
+}
+.contact-content{
+    color:white;
+    width:50%;
+    font-size: medium;
+}
+input, textarea{
+    background-color: rgba(0,0,0,.5);
+    border-color: white;
+    border-width: 1px;
+    border-radius: 8px;
+    width:100%
+}
+#message{
+    height: 100%;
+    width: 100%
 }
