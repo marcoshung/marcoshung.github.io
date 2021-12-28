@@ -14,8 +14,8 @@ export const ExperienceContent = (
     return (
         <>
             <div className="experience-title">
-                <b style={{"textAlign":"left"}}><i>{props.company}</i></b>
-                <b style={{"textAlign":"right"}}><i>{props.time}</i></b>
+                <i style={{"textAlign":"left"}}> {props.company}</i>
+                <i style={{"textAlign":"right"}}>{props.time}</i>
             </div>
             <img className ="logo" src={props.logo} style={{backgroundColor: props.setBackground? "white" : "none"}}/>
             <div className="description">

@@ -5,7 +5,7 @@ import deliverr from '../../images/deliverr.png';
 import codeucate from '../../images/codeucate.png';
 import samtrans from '../../images/samtrans.png';
 import alienvault from '../../images/alienvault.png';
-
+import akpsi from '../../images/akpsi.png'
 import sjsu from '../../images/sjsu.png';
 
 import { ExperienceContent }from '../ExperienceContent';
@@ -92,32 +92,102 @@ export const Experience = () => {
                     logo={codeucate}
                     description ={
                     <>
+                    In Summer 2020 I volunteered as a Developer Intern for the non-profit Codeucate which provides computer science 
+                    education to elementary and middle school students. In addition to helping migrate their existing website from 
+                    a Wordpress site to a Django based website, I also designed an email automation system that helped the marketing team's
+                    outreach efforts. I had the chance to work with in Python and Django throughout this internship.
                     </>}
                 />                
                 <ExperienceContent
                     company="San Jose State University"
                     time ="January 2020 - July 2020"
                     logo={sjsu}
-                    description ={<></>}
+                    description ={
+                    <>
+                    In Spring 2020 I held two student assistant positions at San Jose State University simultaneously. My first role was
+                    as a teaching assistant for the Introduction to Data Structures course where I I helped review and debug 167 students' 
+                    homework and projects to streamline the grading process. I also helped build the foundation of the class's knowledge 
+                    of basic data structures and algorithms by explaining and illustrating topics such as Inheritance, Polymorphism, 
+                    Recursion, Sorting, Stacks, Queues, Linked-Lists, Trees, Maps and overall best coding practices. I ensured that every 
+                    student got constructive feedback on their code to ensure that their foundation of data structures was exceptional in 
+                    order to help them succeed in future course work.
+                    <br/><br/>
+                    My second position was as a student assistant for the School of Social Work where I helped facilitate faculty events and 
+                    served as a liaison for any current or potential student or alumni. In addition to data entry and book keeping to help 
+                    manage the department's documents, I also performed outreach for our department to increase funding for department held 
+                    events.
+                    </>}
                 />
                 <ExperienceContent
                     company="San Mateo County Transit District"
                     time ="June 2019 - May 2021"
                     logo={samtrans}
-                    description ={<></>}
+                    description ={
+                    <>
+                    In Summer 2019 I had the opportunity to intern with the San Mateo County Transit District as the 
+                    Information Technology Intern, where I was in charge of designing the new employee intranet portal 
+                    that would be utilized for internal communications. I constructed the site in SharePoint and was able 
+                    to replace the outdated portal, drastically increasing user satisfaction. As a result, my internship 
+                    was extended to allow me to continue maintain and update the website with new designs throughout the 
+                    school year and beyond. 
+                    </>}
                     setBackground={true}
                 />
                 <ExperienceContent
                     company="AlienVault"
                     time ="August 2017 - September 2018"
                     logo={alienvault}
-                    description ={<></>}
+                    description ={
+                    <>
+                    In my Senior year of High School I interned with AlienVault (now AT&T Cybersecurity) as an accounting 
+                    intern where I processed AP invoices and managed vendor transactions in Oracle NetSuite. I was able
+                    to consolidate transactions from over 30 vendors to help predict future purchases and help senior 
+                    accountants manage funds for future financial needs.
+                    </>}
                 />
             </div>
             
             <h2><u>
                 Leadership Experience
             </u></h2>
+            <div className="experience-content">
+                    <ExperienceContent
+                        company="Alpha Kappa Psi"
+                        time ="February 2019 - December 2021"
+                        logo={akpsi}
+                        description ={
+                        <>
+                        Alpha Kappa Psi is the premier business fraternity founded on the principles of educating 
+                        its members and the public to appreciate and demand higher ideals in business and to further 
+                        the individual welfare of members during college and beyond. I was accepted into this organization
+                        and had the privilege of taking on multiple roles for the organization in my college career.
+                        <br/><br/>
+                        I was first the Fundraising Director, I managed a committee of 6 to execute over a dozen fundraisers 
+                        in the 12 weeks of my term generating $3,000 in revenue to support our organization's professional 
+                        events and recruitment efforts. For these events, I collaborated with vendors and coordinated with 
+                        members of the fraternity to volunteer and market the event via social media platforms. I also 
+                        tracked expenses and revenue for all events and kept clear financial transparency with the rest 
+                        of the fraternity.
+                        <br/><br/>
+                        Afterwards I served as the Vice President of Finance where I tracked and budgeted all of our 
+                        organizations revenue and expenses to ensure the financial longevity of our Chapter. To keep 
+                        clear communication with my board members as well as general members, I generated concise data 
+                        visualizations in Tableau for easy quantitative analysis of our financial standing.
+                        <br/><br/>
+                        During the 2020 pandemic I served as the Social Chair for the organization and conducted events 
+                        online to help promote engagement from our members during difficult times, while also ensuring the 
+                        safety of our members.
+                        <br/><br/>
+                        Finally in my last term, I had the opportunity to be one of the Pledge Mentors of our semester's 14 
+                        recruits. My co and I committed to growing and developing 14 aspiring business professionals through 
+                        a rigorous 7-week long process in Alpha Kappa Psi and instilling critical business skills into the 
+                        Pledge Class such as professional switches, impromptu public speaking, strong resume/linkedin’s, 
+                        conflict resolution, etc. I am incredibly grateful to have been able to lead these 14 individuals 
+                        and incredibly proud of every single one of them for the growth they have exhibited and will continue 
+                        to see in their professional careers.
+                        </>}
+                    />
+                </div>
         </>
     )
 }

@@ -4,6 +4,8 @@
     justify-content: space-between;
     font-size: large;
     margin:8px;
+    text-decoration: underline;
+
 }
 .description{
     text-align: left;
