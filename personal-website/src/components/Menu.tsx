@@ -24,6 +24,7 @@ export const Menu = () => {
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/work">Experience</Link></li>
                     <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/portfolio">Visual Portfolio</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
             ) : null

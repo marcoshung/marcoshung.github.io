@@ -5,7 +5,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
-import { Home, About, Contact, Experience, Projects }  from './components/pages'
+import { Home, About, Contact, Experience, VisualPortfolio }  from './components/pages'
 import { Menu } from './components';
 import { motion } from "framer-motion"
 
@@ -39,8 +39,8 @@ export const App = () => {
         <Route path = "/work">
           <Experience/>
         </Route>
-        <Route path = "/projects">
-          <Projects/>
+        <Route path = "/portfolio">
+          <VisualPortfolio/>
         </Route>
         </motion.div>
       </Switch>

@@ -1,0 +1,16 @@
+.project-header {
+    display: flex;
+    flex:50%;
+    align-items: center;
+    justify-content: space-between;
+}
+.project-description{
+    display: grid;
+    margin: 1rem;
+    justify-items: center;
+}
+
+.project-content{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
