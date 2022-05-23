@@ -1,23 +1,28 @@
 .experience-title{
-    display: flex;
-    flex:50%;
-    justify-content: space-between;
-    font-size: large;
-    margin:8px;
-    text-decoration: underline;
-
+    display: grid;
 }
 .description{
     text-align: left;
     font-size: medium;
-}
+    margin-top: 1rem;
+} 
 .logo{
-    max-width: 60%;
-    max-height: 20%;
+    max-height: 20rem;
+    max-width: 25rem;
 }
 #company{
     float:left;
 }
 #time{
     float:right;
+}
+.experience-header {
+    display: flex;
+    flex:50%;
+    align-items: center;
+    justify-content: space-between;
+}
+.experience-content {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }

@@ -18,23 +18,24 @@ const welcome_messages = [
 export const About = () => {
     return (
         <motion.div className={"about_header"}>
+            <div className="typewriter" style={{backgroundColor:"black"}}>
+                <Typewriter
+                    options={{
+                    strings: welcome_messages,
+                    autoStart: true,
+                    loop: true,
+                    }}
+                />
+            </div>
             <div className="intro">
-                <div className="typewriter" style={{backgroundColor:"black", width:"500px"}}>
-                    <Typewriter
-                        options={{
-                        strings: welcome_messages,
-                        autoStart: true,
-                        loop: true,
-                        }}
-                    />
+
+                <div className="basicInfo">
+                    <h3>Name : <i>Marcos Hung</i></h3>
+                    <h3>Location : <i>San Fransico Bay Area</i></h3>
+                    <h3>Education : <i>San Jose State University</i></h3>
+                    <h3>Expected Graduation : <i>May 2022</i></h3>
                 </div>
                 <img className ="pfp" src={pfp}></img>
-            </div>
-            <div className="basicInfo">
-                <h3>Name : <i>Marcos Hung</i></h3>
-                <h3>Location : <i>San Fransico Bay Area</i></h3>
-                <h3>Education : <i>San Jose State University</i></h3>
-                <h3>Expected Graduation : <i>May 2022</i></h3>
             </div>
             <div className="contact_bar">
                 <a href="https://www.linkedin.com/in/mhung927/" ><img className="icon" src={linkedin}/> </a>

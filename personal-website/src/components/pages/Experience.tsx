@@ -7,7 +7,7 @@ import samtrans from '../../images/samtrans.png';
 import alienvault from '../../images/alienvault.png';
 import akpsi from '../../images/akpsi.png'
 import sjsu from '../../images/sjsu.png';
-
+import proofpoint from '../../images/proofpoint.png';
 import { ExperienceContent }from '../ExperienceContent';
 export const Experience = () => {
     return (
@@ -16,8 +16,32 @@ export const Experience = () => {
                 Work Experience    
             </u></h2>
             <div className="experience-content">
+                
+                <ExperienceContent
+                    company='Proofpoint'
+                    title="Software Engineer Intern"
+                    time="January 2022 - May 2022"
+                    logo={proofpoint}
+                    description ={
+                        <>
+                        Proofpoint is a Cybersecurity company that provides software solutions for email 
+                        security, data loss prevention, electronic discovery, and email archiving and in 
+                        Spring 2022 I had the opportunity to intern with them as a Software Engineer Intern
+                        on the Aperture product Team
+                        <br/><br/>
+                        I implemented several features and improvements to the application within the time of 
+                        my internship including enabling anti-forgery token in our application to prevent cross site 
+                        request forgery attacks, redesigning and implementing web pages to appear more modern, and 
+                        creating a feature that enabled sharing resources between users by hashing and unhashing the 
+                        resource when shared. I utilized C#, JavaScript, Razor HTML, and Azure DevOps in this internship.
+                        </>
+                    }
+                    setBackground={true}
+                />
+
                 <ExperienceContent
                     company="NASA Glenn Research Center"
+                    title = "Data Science Intern"
                     time ="August 2021 - December 2021"
                     logo={nasa}
                     description={
@@ -40,6 +64,7 @@ export const Experience = () => {
                 />
                 <ExperienceContent
                     company="Amazon"
+                    title = "Software Development Engineer Intern"
                     time ="June 2021 - August 2021"
                     logo={amazon}
                     description ={
@@ -65,6 +90,7 @@ export const Experience = () => {
                 />
                 <ExperienceContent
                     company="Deliverr"
+                    title = "Software Development Engineer Intern"
                     time ="January 2021 - May 2021"
                     logo={deliverr}
                     description ={
@@ -88,18 +114,22 @@ export const Experience = () => {
                 />
                 <ExperienceContent
                     company="Codeucate"
+                    title = "Development Intern"
                     time ="July 2020 - August 2020"
                     logo={codeucate}
+                    setBackground={true}
                     description ={
                     <>
                     In Summer 2020 I volunteered as a Developer Intern for the non-profit Codeucate which provides computer science 
                     education to elementary and middle school students. In addition to helping migrate their existing website from 
                     a Wordpress site to a Django based website, I also designed an email automation system that helped the marketing team's
                     outreach efforts. I had the chance to work with in Python and Django throughout this internship.
-                    </>}
+                    </>
+                    }
                 />                
                 <ExperienceContent
                     company="San Jose State University"
+                    title = "Student Assistant"
                     time ="January 2020 - July 2020"
                     logo={sjsu}
                     description ={
@@ -120,6 +150,7 @@ export const Experience = () => {
                 />
                 <ExperienceContent
                     company="San Mateo County Transit District"
+                    title="Information Technology Intern"
                     time ="June 2019 - May 2021"
                     logo={samtrans}
                     description ={
@@ -135,6 +166,7 @@ export const Experience = () => {
                 />
                 <ExperienceContent
                     company="AlienVault"
+                    title="Accounting Intern"
                     time ="August 2017 - September 2018"
                     logo={alienvault}
                     description ={
@@ -153,8 +185,10 @@ export const Experience = () => {
             <div className="experience-content">
                     <ExperienceContent
                         company="Alpha Kappa Psi"
+                        title="Fundraising Director, VP Finance, Social Chair, Pledge Mentor"
                         time ="February 2019 - December 2021"
                         logo={akpsi}
+                        setBackground={true}
                         description ={
                         <>
                         Alpha Kappa Psi is the premier business fraternity founded on the principles of educating 
