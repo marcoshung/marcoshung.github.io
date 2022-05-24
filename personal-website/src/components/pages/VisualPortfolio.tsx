@@ -3,7 +3,8 @@ import { ProjectContent }from '../PortfolioContent';
 import calInfo from '../../images/cal-infographic.png';
 import calFires from '../../images/cal-wildfires.png';
 import fyreComp from '../../images/fyre-comp.png';
-
+import shap from '../../images/shap.jpg';
+import dashboard from '../../images/product-dashboard.png';
 export const VisualPortfolio = () => {
     return (
         <>
@@ -45,6 +46,31 @@ export const VisualPortfolio = () => {
                         </>
                     }
                 />
+
+                <ProjectContent
+                    title ='Explainable AI With SHAP'
+                    picture={shap}
+                    description={
+                        <>
+                        This is an excerpt from my work at NASA in which I presented the tool SHAP to help 
+                        decode the mysteries behind black box machine learning models. This image displays
+                        which pixels are contributing to the AI's decision to classify the dog in the image as 
+                        a certain type of breed.
+                        </>
+                    }
+                />
+
+                <ProjectContent
+                    title ='Product Distribution Dashboard'
+                    picture={dashboard}
+                    description={
+                        <>
+                        This is a dashboard that was created for an in class assignment. It displays the distribution
+                        of products across the U.S by brand and type.
+                        </>
+                    }
+                />
+
             </div>
         </>
     )
